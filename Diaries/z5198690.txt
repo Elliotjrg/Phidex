@@ -1,0 +1,140 @@
+07/03/18 Week 2
+
+Wednesday
+During the first Computer Science Project Lab today we formed a team of 4 people. We decided to name it Skynet.
+We read through all the project proposals and decided to work on Topic 3 - Stock portfolio management, which appealed to us the most.
+However after an in-depth discussion we came up with a variation of the project.
+
+Rather than focusing on stock exchange, our project will deal with Cryptocurrencies.
+After a rundown of the required and "must have" features we picked to create an Android Application. We called it PhiDex.
+
+We then quickly discussed our meeting times and have broken up the work between us for the proposal. A decision was made to finish the draft by Sunday. 
+
+14/03/18 Week 3
+
+Wednesday
+This week I created a few draft logos which I shared with the rest of the team on our facebook group chat. One logo was particularly liked by everyone so
+i created the final design. After that i finished the "background" writeup for our proposal which i have started last week.
+
+During this weeks lab, we have further disscussed the epics we will deliver for our app.
+I presented the finished logo/icon design, which all the team members agreed to. We then made some final adjustements to our proposal
+which is ready for submission. We have also decided to draw some wireframes of the different activities in our app and share them with eachother
+during our next meeting.
+
+Sunday
+Today I have finished designing the wireframes that I picked on Wednesday - portfolio and watchlist activities. I have thought about the overall look of the app
+and came up with a few ideas which I will share with the team during our next meeting.
+
+21/03/18 Week 4
+
+Wednesday
+During the lab, after a long discussion we have finalised what our app will look like. We went through the wireframes we have created and came up 
+with a universal design. The main obstacle we encountered was the user flow, i.e. what happens when a user clicks a button and what should happen. 
+By the end of the lab we had a ready prototype and we have broken up the roles according to each other's liking. The purpose of this was to establish 
+each persons main focus for the overall project. I will deal with the design and user flow. This will include: general graphics, buttons, banners, headers, 
+colours, what happens when a button is clicked, function triggering, etc. Since this is a large task, we have agreed that from time to time someone will help me. 
+After this was settled, since I have some experiance, Elliot asked me to give everyone a quick run down of how Android Studio works and how to make 
+apps in general. 
+
+Sunday
+For the past 3 days I started to develop the main UI of our app. What I managed to finish is the drawer, or in other words the menu that appears once the
+hamburger icon in the top left corner is clicked. In there I designed the header banner and placed our logo with a one line decription of the app.
+Now, the menu also includes the different activities accessible by one click, as well as a search function. 
+We discussed what needs to be here last Wednesday. I changed the default style of the app into a customized one based on our preffered look and colours.
+The icon has also been developed and will appear when the app is downloaded.
+After the menu, I started to work on the main activity, which is the Portfolio page. At this moment I have managed to place half of our logo at the top 
+of the screen, where the overall balance and some additional info of the portfolio will be placed inside. 
+The relevant TextView for the balance is also implemented. 
+What i still have to work on next week are: change activity on click in the menu, further develop balance TextView, implement add button. 
+
+28/03/18 Week 5
+
+Wednesday
+Just as we started the lab, I discussed and presented what I've implemented for the past week. I asked the group weather there is anything I should
+change. Since there was no objections, we discussed whats next to be implemented and how it should look like. Once this was established I got staright to
+work. During the lab I cleaned up and removed the redudant code, created all necessary activities and implemented the pop-up window which appears when 
+the plus button is clicked in the Portfolio Activity.
+
+11/04/18 Week 6
+
+Wednesday
+During the lab I redisgned the pop up window, which included making custom buttons through the use of vectors. Now the pop-up has the final look.
+we discussed what needs to be done and have broken up the tasks accordingly. We agreed to redesign the GUI of the app, to be similiar to the pop-up window, 
+which everyone liked. Another of my tasks is to design and add an image to each coin in the portfolio, as well as to change the color of the text,
+either red or green depending on the gain or loss in price of the coin. 
+I started redesigning the GUI and designed initial coin icons.
+
+Thursday
+For an unknown reason, my build didnt want to compile. After a few hours of work on trying to fix it, I was unsuccessful. The only solution I had was to
+go back to one of the previous commits and pull from the remote repo. By doing so, I have lost all the work I did. 
+
+Sunday 
+Managed to reproduce my lost work.
+
+Monday
+Continued working on the redesign of the Portfolio Activity. Changed the overall style. Each coins tab in the Recycler View has been divided by a line.
+Managed to change "1D % Change" text colours to green or red depending on the gain or loss. At the same time implemented little arrows which reflect that change.
+A default icon was set up for every coin in the Recycler View. The main challenge was to dynamically change the image based on the coin name. In the end,
+I implemented it.
+
+18/04/18 Week 7
+
+Wednesday
+At the start of the lab we discussed that we are almost happy with Portfolio Activity. Further change to the GUI will be made if I have time in between other 
+tasks. We decided to start working on the Coin View activity. Before the rest of the team starts working on it, I must set up the activity with all the Views.
+
+Saturday 
+Fully implemented tabs in View Coin Activity. Also. GUI of the activity made with coin image and coin price.
+
+25/04/18 Week 8
+
+Wednesday 
+Due to Anzac Day our meeting was posponed to the next week. However, we agreed that we're going to continue working on what we were doing before.
+Started to implement nicer design pattern to the activities.
+
+02/05/18 Week 9
+
+Wednesday
+Today we broken up the tasks for this week. I will work on the Watchlist Activity which will allow a user to add a coin to their watchlist. If time allows I
+would also like to change the way our Recycler Views looks.
+
+Thursday 
+Implemented Watchlist Activity and the pop-up window, which includes an auto-fill function.
+However, I had a problem with populating the recycler view - adding coins to the watch list. For some reason I could only add to the list if the coin is added 
+to the portfolio. Asked Emma for help.
+
+Saturday
+With the Watchklist Activity fully implemented I started working on the recycler view. I changed the whole design to a more modern one. During the process I decided
+to use a card view within the recycler view. Further changes where made to the font and placement of text and image in the card. Eventually, the re-design
+was complete
+
+09/05/18 Week 10
+
+Wednesday 
+In the lab we had a demo with the TA, where we presented our app and the progress we made since the last demo.
+Afterwards, we discussed what needs to be tied up for next weeks presentation. To our surprise everything we wanted is implemented with only a few small
+bugs we need to fix. There are also some retouches to the design that need to be done, for example the stats in the viewcoin. I also have to add all
+the remaining coin logos to the Drawable folder. We devided the work accordingly.
+
+Saturday
+Finished re-designing the stats page in ViewCoin.
+
+Sunday
+Top 100 coins have been added to the app. Now logos appear for all our coins.
+
+14/05/18 Week 11
+
+Monday
+Final re-design and code cleaned up. Released the project which involved creating project key that is used for Play store release as a proof of owner identity and
+finalising security of the app. The final APK has been build allowing any user to install their app on their Android phone.
+
+Wednesday
+In lab presentation was given by the team. Overall I think it went very well with no major issues. The project is officaily closing. Work on the final
+write-up needed.
+
+23/05/18 Week 12
+
+Friday
+Finished writing up the final report. Missing coin logos were added to the app. Arrow pointing at the plus button in Portfolio Activity is implemented. 
+Project is officialy closed.
+

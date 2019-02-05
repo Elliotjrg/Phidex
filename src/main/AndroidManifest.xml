@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phidex.phidex">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.PortfolioActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.SearchActivity"
+            android:label="Search"
+            android:parentActivityName=".activities.PortfolioActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phidex.phidex.activities.PortfolioActivity" />
+        </activity>
+        <activity
+            android:name=".activities.TransactionsActivity"
+            android:label="Portfolio History" />
+        <activity
+            android:name=".activities.HotCoinsActivity"
+            android:label="Hot Coins" />
+        <activity
+            android:name=".activities.AboutActivity"
+            android:label="About" />
+        <activity
+            android:name=".activities.CoinView.ViewCoinActivity"
+            android:label="@string/title_activity_view_coin"
+            android:parentActivityName=".activities.PortfolioActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.phidex.phidex.activities.PortfolioActivity" />
+        </activity>
+        <activity
+            android:name=".activities.WatchListActivity"
+            android:label="Watch List">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phidex.phidex.activities.CoinView.ViewCoinActivity"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <com.example.phidex.phidex.utils.CustomGraphView
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="8dp"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/date_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:entries="@array/date_range_array"
+        app:backgroundTint="@android:color/white"
+        android:popupBackground="#0a1318"
+        />
+</LinearLayout>

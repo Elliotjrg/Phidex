@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.phidex.phidex.activities.SearchActivity"
+    tools:showIn="@layout/activity_search"
+    android:background="@drawable/back">
+
+    <SearchView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/main_search" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:scrollbars="vertical"
+        android:id="@+id/recycler_view_search">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+==== PROJECT LOG ====
+== CAMERON HILLMAN ==
+===== z5062541 ======
+
+== 7th Mar ==
+- initial tutorial
+- formed group, decided on project
+- brainstormed ideas
+- divided work for the proposal stage
+- set up bitbucket, trello, google drive
+
+== 10th Mar ==
+- discussed with team about specifics of adding cryptos to watchlist and portfolio
+
+== 11th Mar == 
+- wrote my contribution for the proposal (Search and Setings page epic)
+- added to proposal document
+
+== 14th Mar ==
+- group met to discuss project proposal
+- collaboratively worked on the Aim section of the proposal (Emma and I focused on the technical details/scope section)
+	- discussed what API we would use
+	- discussed what version of Android we would support
+
+== 18th Mar ==
+- made wireframes for the search and transaction page
+	- to discuss next meeting
+
+== 21st Mar ==
+- group met to discuss the wireframes that we made
+- talked more about the functionality of the portfolio (home) page
+
+== 26th Mar ==
+- researched Room databases
+- wrote some initial thoughts for our databases (+ schema)
+
+== 28th Mar ==
+- talked through the databases (what tables are we going to have? how is it going to look?)
+- discussed more about the API
+- started a document in the google drive that has information about our database and how we're going to implement it
+
+== (MID SEM BREAK) ==
+
+== 6th Apr ==
+- worked on initialising the database structures in the app
+- added an AppDatabase package and added various classes to act as tables within the database
+- wrote some dummy queries for future work on
+
+== 11th Apr ==
+- met with the group and presented our first draft of the app to the tutor
+- updated some queries, added many new ones
+- divided new work: this week, work on functionality of current portfolio page (buttons) and adding a transaction view
+
+== 16th Apr ==
+- worked with Elliot to properly implement the transaction popup
+
+== 18th Apr ==
+- met with group
+- looked over each other's work, debugged together
+- divided work for the coming week and figured out a schedule for us to follow
+
+== 22nd Apr ==
+- worked on making the transaction popup more responsive
+	- now takes a coin name and will not crash the app if given incorrect information
+	- refactored a LOT of code...
+
+== 24-25th Apr ==
+- worked on implementing the news tab
+	- added two new classes: for the reddit api and one for the recycler view adapter
+	- news tab is fully functional, but needs to be beautified
+
+== 29th Apr ==
+- finished the news tab
+	- made pretty using cardview
+- started on hot coins. going to scrape a website that lists "top daily increases"
+- reused a lot of code from the news tab for the hot coins tab...
+
+== 2nd May ==
+- met with the group and divided next week's work
+	- I am to work on the hot coins page and finish the news page
+- fixed some bugs with the news page
+
+== 7th May ==
+- implemented the hotcoins page fully
+	- scrapes data from a website that aggregates news
+- wrote up and about us page
+
+== 9th May ==
+- we did a group demo (and our tutor liked it)
+- met with the group and divided work for this week. my work for the week:
+	- fixing some bugs with our recycler views
+	- update the transaction page with cardviews
+	- fix some bugs with the news page (subreddits aren't right)
+- we also discussed some changes to the database I will implement
+
+== 10th May ==
+- massive changes to how clicks are registered (much refactoring)
+- fixed bugs in the transaction adapters, and deleted the duplicate one used for the transaction tab
+- massive changes to what transactions look like
+
+== 15th May ==
+- made major changes to the way the news page is implemented
+	- now a static list of subreddits (allows for multireddits too)
+- made changes to the hotcoins adapter
+
+== 16th May ==
+- met with the group in the tutorial
+- presented to the class + tutors (they seemed to like!)
+- divided up the report (due Friday next week)
+
+== 23rd May ==
+- minor bug fixes
+- wrote my section for reports

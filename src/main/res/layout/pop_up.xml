@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="425dp"
+    android:background="#102027"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="X"
+        android:textColor="@android:color/white"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/circle"
+        android:id="@+id/closePopUp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coin"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"/>
+    <AutoCompleteTextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/actvCoin"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:id="@+id/amount"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:id="@+id/price"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textColor="@android:color/white"
+            android:text="Price"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@drawable/button_style_cancel"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cancelButton"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style_confirm"
+            android:textColor="@android:color/holo_green_light"
+            android:text="Confirm"
+            android:layout_marginLeft="72dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/confirmButton"/>
+
+    </LinearLayout>
+
+</LinearLayout>

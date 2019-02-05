@@ -1,0 +1,37 @@
+7/3/18: Set up the Bitbucket group and made sure to add the cs9900 email as a member. Also started on proposal draft and completed the "View Coin" epic section that was assigned to me as well as writing some notes for the Aim section of the proposal.
+
+11/3/18: Added more information to "View Coin" epic as well as doing "Hot Currencies" epic for proposal report.
+
+14/3/18: In our team meeting we worked on finishing off our proposal, I added to the scope/technical details section as well as giving the proposal a proof read and edit.
+
+21/3/18: In our team meeting we discussed and showed the sketches we had done.
+
+24/3/18: I set up the initial bitbucket repository and worked on getting a gitignore file working. Unfortunately after an hour no progress made in terms of trying to get the Android app up and running. 
+
+28/3/18: Created a HttpUtil class which calls CoinMarketCap's API and returns data on Bitcoin. Now waiting on implementation of database tables to be done by Cam/Elliot before I can use this class to store the returned data in table.
+
+8/4/18: Updated the HttpUtil class with some new functions so that after calling coinmarketcap's API it stores the newly acquired data in the existing database. Also added database query code to facilitate that. Added a debug tool so we can look at the database via localhost.
+
+11/4/18: Implemented delete coin functionality: Long pressing a coin on portfolio page will bring up delete menu. Clicking delete sets holding to 0 and portfolio_rank to -1. Cannot complete last remaining step (adding a new transaction) as transaction table has not been implemented yet.
+
+14/4/18: Implemented functionality for clicking on a coin taking you to coin. Created CoinActivity page with TextView for passing in the coinName.
+
+22/4/18: Started on implementing graphs tab on view coin. Clicking graphs tab will now call the required API, and creates the graph with dummy data. Still left to do is to update the graph to use the data received from the API call.
+
+28/4/18: Completed implementing graphs tab on view coin for 7 day view graph. Clicking on a point on the graph will show you the specific date/price for that point.
+
+29/4/18: Completed implementing dropdown menu using Android Spinner component that will let the user choose between 7, 30, 90 and 365 day intervals.
+
+2/5/18: Fixed bug where coins with spaces in their names was crashing view coin page.
+
+4/5/18: Fixed bug where adding transaction did not immediately refresh portfolio's coins.
+
+5/5/18: Loading up app adds top 100 coins to database. Added workarounds so that implementation still works even when API is rate limited or unavailable. Another change to remove another API call
+
+7/5/18: Implemented add coin to watch list functionality. 
+
+9/5/18: Fixed bug where portfolio popup dropdown wasn't being intialised properly when you open the app for the first time. Bug fixed where scrolling was broken in news and transactions tabs
+
+13/5/18: Updated minimum sdk version, fixed long coin name portfolio bug, fixed deleting coin from portfolio bug. Refactored SearchActivity into two classes, fixed bug where only search icon was clickable and not entire search bar. Deleting a transaction from the history page immediately deletes it and also updates coin database. pressing back button will take you back to updated portfolio page. Can delete transactions from transactions tab. Renamed all instances of tab4 to transactions. Removed onClick listener for transaction if you are on the transactions tab. Also changed colour scheme of transactions to better match rest of app
+
+17/5/18: Bunch of refactoring to get app ready for submission.

@@ -1,0 +1,179 @@
+ --------------------------------
+| Project Diary                  |
+|                                |
+| Elliot Griffiths - z3332776    |
+| Role: Scrum Master / Developer |
+| Team: Skynet                   |
+| Project: Phidex                |
+ --------------------------------
+
+Week 1
+    
+    Wed: Attended Lecture. Discussed team work and srum style project management.
+
+Week 2
+
+
+    Wed:  Today was the first lab class of sem. Our team was formed and named Skynet.
+          We discussed the three projects and decided on a variation of project 3 (Portfolio
+          management application) - a crypotcurrency portfolio app with some additional
+          features.
+          We decided that I would be the Scrum Master and brainstormed features and a name
+          for our app. Deciding on PhiDex. After this we discussed meeting times and our
+          project proposal. Trello, bitbucket and google drive shared folders were created.
+          We then split tasks up between group memebers and decided to aim to finish the 
+          proposal draft by the coming Sunday.
+
+    Fri:  Worked on orgaising trello boards and finishing off some task on the project
+          Proposal; Profolio epic, team skill set, Aim, Exchanges Epic, Final epic choice,
+          team schedule.
+          I realised some areas of the project proposal were missing and so I shared around
+          some extra tasks for our team to work on.
+
+
+Week 3
+
+    Wed:  In the team meeting we decided on the logo made by Patyrik and made final ajustments
+          to the proposal. I asked the team to proof read over everything tonight and I will
+          submit Thursday afternoon
+          After finishing the proposal we all set up Android studio with the phidex project
+          which I had added to bitbucket last week. We then decided the use the Nexus as our
+          base phone to develop for.
+          We then decided the first Sprint to be wireframing our application. We devided up the
+          screens and we compare work on friday.
+
+    Thu:  Today I made some final adjustments to the project proposal, submitted it and started
+          work on my alocated wireframe screen.
+
+Week 4
+
+    Wed:  We started our team meeting off with discussing all our wireframes from last weeks sprint.
+          Our team had many differing ideas for the best set up and design for the interface. 
+          To mediate all the discussions and ideas, I wheeled over the whiteboard and drew up
+          any points of confusions so we call all come to an agreed vision for the final app
+          interface.
+          Once we were all happy we decided on the main roles / responsibilies for all the major 
+          works involved.
+          
+          Patryk    - Build interface and design all views, buttons, layouts.
+          Emma      - Create a function which when called updates the database of all prices
+          Cameron   - Create and manage the database
+          Elliot    - Fill all values in app using database
+
+Week 5
+
+    Wed: Our weekly sprint had gone well. Patryk made good ground on the profile page, Emma had
+         looked into APIs for pulling data and Cameron's research into databases helped us decide we
+         would use 'Room' for local data storgae. During the meeting we gave Pat some feedback and asked
+         to adjust a few aspects of the design, specifically the add button linking to a windowed pop
+         up rather than a new page. Emma and Camron wrote up the schema for the data base and I looked
+         into how it would be stored in the java project files. 
+
+         Most of us are going away for the Easter break so we decided on a reduced schedual for this
+         sprint. Cam would finish off the database, Emma the get function and I would fill the data
+         into Pats created views. Patryk will be away for a 10 day holiday in Bali so we will need to
+         finish the demo build for when he returns.
+
+Midsem
+
+    Wed: The majority of our team were on holidays over the easter break and mid sem week so we decided 
+         to reduce the expected work to be done.
+
+    Fri: Cameron worked on the Room database imp and I did some work creating quiaries for updating the 
+         portfolio page. Generating total holidings and current coin holdings in portfolio view.
+
+Week 6
+
+    Sun: Emma finished off the API data gathering function and filling the database with the info.
+         
+    Mon: I created a recycler view for displaying the portfolio coins on the main page. To do this I
+         I also needed to create a new class (CoinAdaption) which handles taking the Coin opbject
+         from the database output query, counting the entries, setting up the fields and filling the
+         scrollable recycler view. This was done for Coin in portfolio, coin price, and 24 hr change.
+
+    Tue: I added some more data to the portfolio page; Calculated total sum of holdings, sub headings
+         for coin info and individual coin holding value.
+
+    Fri: Added up/down arrow to portfolio change, added number and token holding to portfolio rows
+
+    Sat: Created Adapter to handle transactions and pass to new recycler view. Transactions should now
+         display in portfolio history page.
+
+Week 7
+
+    Mon: Finished Transaction page. Cam worked on add button
+
+    Tue: Created new Schedul.
+
+    Wed: In todays meeting Cam discussed the issues he is having with the "add coin to portfolio button"
+         Emma helped Cam work on getting this implemented.
+         I devided up the tasks for the next sprint where we are working on the View Coin page as per below;
+
+         Pat    - Setting up the layout for view coin page and adding tabs for the following items.
+         Emma   - Chart Tab
+         Cam    - News Tab
+         Elliot - Stats Tab & Individual CoinTransactions Tab
+
+Week 8
+
+    Sun: Implimented coin transactions tab for View Coin Pgae.
+
+    Tue: Implimented Stats Tab of View Coin page.
+
+    Wed: Updated schedule and added new week 8/9 tasks to trello. As follows:
+
+        Elliot  - Search page
+        Emma    - Finish Charts page
+        Cam     - Finish News and Start on hot currencies
+        Pat     - Set up Views and data for watch list page.
+
+Week 9 
+
+    Sun: Spent 4 hours working on search page. I need to change the view back to the original lay out of
+         Search activity separate to the Nav bar. From there I worked on trying to use Cam's implimentation
+         of the auto fill from the add coin button. I was having several issues with this.
+
+    Wed: In todays meeting we discussed what is left to do on the project. Emma and Cam had does a great
+         job on the Charts and News pages respectivly. Cam had quite a lot of assignmnets and so had not
+         fulled completed the hot currencies page. And myself was still struggleing with the Search.
+
+         Jobs for the coming week:
+         
+         Elliot - Finish search page, start work on presentation and report
+         Emma   - Clean up code, fix some bugs, fill entire database of top 100 coins with 1 pull
+         Cam    - Finish hot currencies and About page
+         Pat    - Refresh the coin view cards to make them look more presentable.
+
+Week 10 
+
+    Sat: I spent my whole saturday working on the Search page. After great frustration I got it working!!
+         Very happy. 
+
+    Wed: In our lab class we had our final demo before the presentation. Our tutor was happy with our
+         our work. After this I showed the what I had in mind for the presentation in week 11 and how
+         final report would be structured.
+
+    Fri: I worked on the final presentation slides for next wednesday. I also created a draft final
+         report and added all sections with instructions and alocated them to my team members. 
+
+Week 11
+
+    Sun: This week I will be presenting our finished app to the class. To make sure everything went
+         smoothly I recored some screen captures of our app working through all the features.
+
+    Mon: Further practise for the demo presentation.
+
+    Wed: Presentation day. I presented my teams work and demo'd the app. The lecturer was very
+         with the format for my "efficent" presentation. :)
+
+Week 12
+
+    Sat: Worked on the final report. Alocated work to my team members and formatted the report.
+
+    Wed: Finished off all my sections in the final report
+
+    Fri: Collected the APK file off Pat, Set up Dropbox link for submitting assignment as our
+         file is around 150Mb we can not submit it all via Give. Submitted the assignment file
+         Including Report.pdf, APK build file and a link to dropbox folder containing the project
+         build files for running on android emulator in Android Studio.
+
